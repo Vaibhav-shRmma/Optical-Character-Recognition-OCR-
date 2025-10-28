@@ -1,2 +1,17 @@
-# Optical-Character-Recognition-OCR-
-This project uses Tesseract OCR to extract text from images. Tesseract (developed by Google) is an open-source Optical Character Recognition engine that can read text in over 100 languages and convert scanned images, screenshots, or photos of text into editable, searchable digital text.
+# 🖼️ OCR Image-to-Text Web App
+
+A simple Flask web app that extracts text from uploaded images using **Tesseract OCR**.
+
+## 🚀 Features
+- Upload any image (`.jpg`, `.png`, `.webp`, etc.)
+- Extract and display text instantly
+- Built with Flask, Pillow, and Pytesseract
+
+---
+
+## 🧩 Installation & Usage
+
+### 1. Clone this repo
+```bash
+git clone https://github.com/YOUR_USERNAME/ocr-app.git
+cd ocr-app
