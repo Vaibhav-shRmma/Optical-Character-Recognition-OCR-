@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image to Text</title>
+    <style>
+        body { font-family: Georgia, sans-serif; margin: 40px; }
+        form { margin-bottom: 20px; }
+        textarea { width: 100%; height: 200px; }
+    </style>
+</head>
+<body>
+    <h2>IMAGE TO TEXT CONVERTER</h2>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Convert</button>
+    </form>
+
+    {% if text %}
+    <h3>Extracted Text:</h3>
+    <textarea readonly>{{ text }}</textarea>
+    {% endif %}
+</body>
+</html>
